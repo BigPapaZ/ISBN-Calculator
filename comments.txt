@@ -1,0 +1,10 @@
+GuessingGame: All good. 
+
+ISBN: 
+1.Answer is wrong when ISBN starts with 0. When you convert an int to a string, leading 0s are missing.
+ISBN 085131041  FAILED. Should be 9 but was 8
+
+
+2.Index out of range of the string when you make substring from i to i+1.
+You'd better not make substring unnecessarily because it's very inefficient when computing. 
+I changed the substring with charAt operation. 
